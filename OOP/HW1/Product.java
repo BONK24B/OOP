@@ -1,18 +1,24 @@
 package OOP.HW1;
 
 public class Product{
-    private String type;
+    private int id;
+    private String category;
     private int price;
     private String name;
 
-    public Product(String type, int price, String name) {
-        this.type = type;
+    public Product(int id, String category, int price, String name) {
+        this.id = id;
+        this.category = category;
         this.price = price;
         this.name = name;
     }
 
-    public String getType(){
-        return type;
+    public int getId(){
+        return id;
+    }
+
+    public String getCategory(){
+        return category;
     }
 
     public int getPrice(){
@@ -25,6 +31,6 @@ public class Product{
 
     @Override
     public String toString() {
-        return "Type: " + type + "\nPrice: " + price + "\nName: " + name;
+        return "Id: " + id + "\nCategory: " + category + "\nPrice: " + price + "\nName: " + name;
     }
 }

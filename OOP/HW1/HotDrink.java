@@ -3,8 +3,8 @@ package OOP.HW1;
 public class HotDrink extends Product{
     private int temperature;
     
-    public HotDrink(String type, int price, String name, int temperature) {
-        super(type, price, name);
+    public HotDrink(int id, String category, int price, String name, int temperature) {
+        super(id, category, price, name);
         this.temperature = temperature;
     }
 
