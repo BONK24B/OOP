@@ -20,8 +20,4 @@ public class Logger {
             System.out.println("Ошибка при записи в файл: " + e.getMessage());
         }
     }
-
-    private static DateTimeFormatter DateTimeFormatter(String string) {
-        return null;
-    }
 }
