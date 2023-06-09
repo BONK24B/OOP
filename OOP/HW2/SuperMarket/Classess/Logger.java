@@ -1,13 +1,11 @@
 package OOP.HW2.SuperMarket.Classess;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class Logger {
-    private File logger = new File("log.txt");
     private static FileWriter writer;
 
     public static void textLog(String text){
