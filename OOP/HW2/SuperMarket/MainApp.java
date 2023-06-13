@@ -14,7 +14,11 @@ public class MainApp {
         iActorBehaviour client1 = new OrdinaryClient("Albert");
         iActorBehaviour client2 = new SpecialClient("Adam", 1);
         iActorBehaviour client = new PromotionalClient("Kiryu", 12, "Rice enjoyer");
+        iActorBehaviour lera = new SpecialClient("Lera Zaja", 1488);
+        iActorBehaviour semion = new OrdinaryClient("Semion");
 
+        market.acceptToMarket(lera);
+        market.acceptToMarket(semion);
         market.acceptToMarket(client4);
         market.acceptToMarket(client5);
         market.acceptToMarket(client2);

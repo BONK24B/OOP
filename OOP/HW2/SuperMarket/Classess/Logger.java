@@ -12,7 +12,7 @@ public class Logger {
         try{
             writer = new FileWriter("log.txt", true);
             writer.write(text);
-            writer.write(": " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+            writer.write(": " + LocalDateTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss:")));
             writer.write("\n");
             writer.close();
         }
