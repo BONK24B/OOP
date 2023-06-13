@@ -3,7 +3,6 @@ package OOP.HW3.StudentDomain;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.lang.model.util.ElementScanner14;
 
 public class StudentGroup implements Iterable<Student>, Comparable<StudentGroup>
 {

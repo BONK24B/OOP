@@ -1,6 +1,5 @@
 package OOP.HW3.StudentDomain;
 
-import java.util.jar.Attributes.Name;
 
 public class User {
     private String firstName;
