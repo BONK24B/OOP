@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import OOP.HW3.StudentDomain.AverageAge;
 import OOP.HW3.StudentDomain.Student;
 import OOP.HW3.StudentDomain.StudentGroup;
 import OOP.HW3.StudentDomain.StudentStream;
@@ -82,5 +83,16 @@ public class MainApp {
         // for (Student student : group2){
         //     System.out.println(student);
         // }
+
+        List<User> users = new ArrayList<>();
+
+        users.add(u2);
+        users.add(student8);
+        users.add(student4);
+        users.add(u3);
+
+        AverageAge<User> avg = new AverageAge<User>(users);
+
+        System.out.println("Average age of this group is: " + avg.averageAge());
     }
 }
