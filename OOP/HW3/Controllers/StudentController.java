@@ -1,7 +1,7 @@
-package OOP.HW3.Controllers;
+package HW3.Controllers;
 
-import OOP.HW3.Services.StudentService;
-import OOP.HW3.StudentDomain.Student;
+import HW3.Services.StudentService;
+import HW3.StudentDomain.Student;
 
 public class StudentController implements IUserController<Student>{
     private final StudentService dataService = new StudentService();

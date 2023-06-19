@@ -1,4 +1,4 @@
-package OOP.HW1;
+package HW1;
 
 public class Product{
     private int id;

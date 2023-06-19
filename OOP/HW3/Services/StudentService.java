@@ -1,10 +1,10 @@
-package OOP.HW3.Services;
+package HW3.Services;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import OOP.HW3.StudentDomain.PersonComparator;
-import OOP.HW3.StudentDomain.Student;
+import HW3.StudentDomain.PersonComparator;
+import HW3.StudentDomain.Student;
 
 public class StudentService implements IUserService<Student>{
     private long count;

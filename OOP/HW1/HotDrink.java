@@ -1,4 +1,4 @@
-package OOP.HW1;
+package HW1;
 
 public class HotDrink extends Product{
     private int temperature;

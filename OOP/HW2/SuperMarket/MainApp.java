@@ -1,10 +1,10 @@
-package OOP.HW2.SuperMarket;
+package HW2.SuperMarket;
 
-import OOP.HW2.SuperMarket.Classess.Market;
-import OOP.HW2.SuperMarket.Classess.OrdinaryClient;
-import OOP.HW2.SuperMarket.Classess.PromotionalClient;
-import OOP.HW2.SuperMarket.Classess.SpecialClient;
-import OOP.HW2.SuperMarket.Interfacess.iActorBehaviour;
+import HW2.SuperMarket.Classess.Market;
+import HW2.SuperMarket.Classess.OrdinaryClient;
+import HW2.SuperMarket.Classess.PromotionalClient;
+import HW2.SuperMarket.Classess.SpecialClient;
+import HW2.SuperMarket.Interfacess.iActorBehaviour;
 
 public class MainApp {
     public static void main(String[] args) {

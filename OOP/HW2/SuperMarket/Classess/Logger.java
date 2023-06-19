@@ -1,4 +1,4 @@
-package OOP.HW2.SuperMarket.Classess;
+package HW2.SuperMarket.Classess;
 
 import java.io.FileWriter;
 import java.io.IOException;

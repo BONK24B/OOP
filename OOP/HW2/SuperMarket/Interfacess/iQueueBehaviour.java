@@ -1,4 +1,4 @@
-package OOP.HW2.SuperMarket.Interfacess;
+package HW2.SuperMarket.Interfacess;
 
 public interface iQueueBehaviour {
     void takeInQueue(iActorBehaviour actor);

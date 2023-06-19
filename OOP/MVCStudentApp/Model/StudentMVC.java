@@ -1,10 +1,10 @@
-package HW3.StudentDomain;
+package MVCStudentApp.Model;
 
-public class Student extends User implements Comparable<Student>{
+public class StudentMVC extends UserMVC implements Comparable<StudentMVC>{
 
     private long studentId;
 
-    public Student(String firstName, String secondName, int age, long studentId) {
+    public StudentMVC(String firstName, String secondName, int age, long studentId) {
         super(firstName, secondName, age);
         this.studentId = studentId;
     }
@@ -23,7 +23,7 @@ public class Student extends User implements Comparable<Student>{
     }
 
     @Override
-    public int compareTo(Student o) {
+    public int compareTo(StudentMVC o) {
         if (this.getAge() == o.getAge()){
             if (this.getStudentId() == o.getStudentId()){
                 return 0;

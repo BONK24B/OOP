@@ -1,11 +1,11 @@
-package OOP.HW2.SuperMarket.Classess;
+package HW2.SuperMarket.Classess;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import OOP.HW2.SuperMarket.Interfacess.iActorBehaviour;
-import OOP.HW2.SuperMarket.Interfacess.iMarketBehaviour;
-import OOP.HW2.SuperMarket.Interfacess.iQueueBehaviour;
+import HW2.SuperMarket.Interfacess.iActorBehaviour;
+import HW2.SuperMarket.Interfacess.iMarketBehaviour;
+import HW2.SuperMarket.Interfacess.iQueueBehaviour;
 
 public class Market implements iMarketBehaviour, iQueueBehaviour{
 

@@ -1,7 +1,7 @@
-package OOP.HW3.Controllers;
+package HW3.Controllers;
 
-import OOP.HW3.Services.TeacherService;
-import OOP.HW3.StudentDomain.Teacher;
+import HW3.Services.TeacherService;
+import HW3.StudentDomain.Teacher;
 
 public class TeacherController implements IUserController<Teacher>{
 

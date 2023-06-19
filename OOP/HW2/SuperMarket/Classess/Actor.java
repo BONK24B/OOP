@@ -1,9 +1,9 @@
-package OOP.HW2.SuperMarket.Classess;
+package HW2.SuperMarket.Classess;
 
 import java.util.Random;
 
-import OOP.HW2.SuperMarket.Interfacess.iActorBehaviour;
-import OOP.HW2.SuperMarket.Interfacess.iReturnOrder;
+import HW2.SuperMarket.Interfacess.iActorBehaviour;
+import HW2.SuperMarket.Interfacess.iReturnOrder;
 
 public abstract class Actor implements iActorBehaviour, iReturnOrder{
     protected String name;

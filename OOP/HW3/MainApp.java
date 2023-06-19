@@ -1,15 +1,15 @@
-package OOP.HW3;
+package HW3;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import OOP.HW3.StudentDomain.AverageAge;
-import OOP.HW3.StudentDomain.Student;
-import OOP.HW3.StudentDomain.StudentGroup;
-import OOP.HW3.StudentDomain.StudentStream;
-import OOP.HW3.StudentDomain.Teacher;
-import OOP.HW3.StudentDomain.User;
+import HW3.StudentDomain.AverageAge;
+import HW3.StudentDomain.Student;
+import HW3.StudentDomain.StudentGroup;
+import HW3.StudentDomain.StudentStream;
+import HW3.StudentDomain.Teacher;
+import HW3.StudentDomain.User;
 
 public class MainApp {
     public static void main(String[] args) {

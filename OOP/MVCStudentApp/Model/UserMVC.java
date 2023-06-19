@@ -1,12 +1,12 @@
-package HW3.StudentDomain;
+package MVCStudentApp.Model;
 
 
-public class User {
+public class UserMVC {
     private String firstName;
     private String secondName;
     private int age;
 
-    public User(String firstName, String secondName, int age) {
+    public UserMVC(String firstName, String secondName, int age) {
         this.firstName = firstName;
         this.secondName = secondName;
         this.age = age;

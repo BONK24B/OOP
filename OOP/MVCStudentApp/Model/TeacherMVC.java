@@ -1,11 +1,11 @@
-package HW3.StudentDomain;
+package MVCStudentApp.Model;
 
-public class Teacher extends User{
+public class TeacherMVC extends UserMVC{
 
     private String subject;
     private long teacherId;
 
-    public Teacher(String firstName, String secondName, int age, String subject, long teacherId) {
+    public TeacherMVC(String firstName, String secondName, int age, String subject, long teacherId) {
         super(firstName, secondName, age);
         this.subject = subject;
         this.teacherId = teacherId;

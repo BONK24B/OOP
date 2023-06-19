@@ -1,4 +1,4 @@
-package OOP.HW3.StudentDomain;
+package HW3.StudentDomain;
 
 import java.util.List;
 
